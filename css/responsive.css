@@ -31,7 +31,9 @@
     }
 
     /* carousal design */
-
+    .testimonial-section .carousel-item .carosel-caption p{
+        padding: 0;
+    }
 
 }
 
@@ -52,21 +54,37 @@
     }
 
     /* story secton */
-
+    .story-section{
+        height: auto;
+        padding: 3rem 0;
+    }
 
     /* carousal design */
-
+    .testimonial-section .carousel-item{
+        padding: 11rem 3.125rem;
+    }
 
     /* newsletter */
-
+    .newsletter{
+        width: 75%;
+    }
+    .newsletter .main-btn{
+        width: 100%;
+        margin-top: 1rem;
+    }
 
     /* footer link */
-
+    .footer .footer-link,
+    .footer a i{
+        padding: 0 0.7rem;
+    }
 }
 
-@media (max-width:767px){
+@media (max-width:330px){
 
     /* carousal design */
-
+    .testimonial-section .carousel-item{
+        padding: 13rem 3.125rem;
+    }
     
 }

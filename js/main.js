@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded",() =>{
     let obj = document.getElementById(id),
     current = start,
     range = end - start,
-    increment = end > start ? 1 : -1
+    increment = end > start ? 1 : -1,
     step = Math.abs(Math.floor(duration / range)),
     timer = setInterval(() => {
         current += increment;
